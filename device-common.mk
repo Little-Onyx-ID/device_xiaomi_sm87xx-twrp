@@ -64,6 +64,10 @@ PRODUCT_PACKAGES += update_engine \
 PRODUCT_PACKAGES += \
   update_engine_sideload
 
+# Build FakeOmapi
+PRODUCT_PACKAGES += \
+    android.se.omapi.fake
+
 # f2fs utilities
 PRODUCT_PACKAGES += \
     sg_write_buffer \
