@@ -62,6 +62,8 @@ on property:twrp.modules.loaded=true
     start health-default
     start vibratorfeature-hal-service
     umount /firmware
+    wait /sys/kernel/boot_adsp/ssr
+    write /sys/kernel/boot_adsp/ssr 1
 
 on property:twrp.all.users.decrypted=true
     stop weaver_nxp
