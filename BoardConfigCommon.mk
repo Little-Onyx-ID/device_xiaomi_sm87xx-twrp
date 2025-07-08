@@ -154,6 +154,7 @@ TW_NO_EXFAT_FUSE := true
 TW_INCLUDE_NTFS_3G := true
 TW_INCLUDE_RESETPROP := true
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
+TW_DEVICE_VERSION := POCO F7 by SMG Teams
 TW_OVERRIDE_SYSTEM_PROPS := \
     "ro.build.fingerprint=ro.vendor.build.fingerprint;ro.build.version.incremental"
 RECOVERY_LIBRARY_SOURCE_FILES += \
